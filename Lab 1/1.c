@@ -16,8 +16,7 @@ void myInit (void){
 }
 
 void myDisplay(void){
-
-glClear(GL_COLOR_BUFFER_BIT);
+  glClear(GL_COLOR_BUFFER_BIT);
 //Sun
   glColor3f(7.0f,7.0f, 0.0f);
   glBegin(GL_POINTS);
